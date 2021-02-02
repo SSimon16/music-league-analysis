@@ -1,0 +1,2153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Music League | Official Gregular Simp Club</title>
+
+    <link rel="icon" type="image/png" href="https://s3.amazonaws.com/musicleague-static-assets/icons/favicon.png">
+
+    <!-- Nunito -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+    <!-- JQuery -->
+    <script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- Custom -->
+    <link rel="stylesheet" href="/static/css/style_1.css">
+
+    <!-- Unique -->
+    
+<link rel="stylesheet" href="/static/css/league_6.css">
+
+</head>
+<body>
+    <div id="img-bar" style="background-image: url('https://s3.amazonaws.com/musicleague-static-assets/images/ml_header21.jpg')">
+        <div id="nav-bar">
+            <div class="brand-wrapper">
+                <a href="/">
+                    <img src="https://s3.amazonaws.com/musicleague-static-assets/icons/site_logo.svg" alt="" class="brand-icon">
+                </a>
+            </div>
+            <div class="add-league-wrapper">
+                
+                <span class="add-league-text hidden-xs">Create League</span>
+                <a href="/l/create/">
+                    <img src="https://s3.amazonaws.com/musicleague-static-assets/icons/add_icon.svg" alt="" class="add-league-icon">
+                </a>
+                
+            </div>
+            <svg class="account-divider" width="7" height="120" viewBox="0 0 3 120" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                <line stroke-linecap="round" x1="1" y1="0" x2="1" y2="90" stroke="white" stroke-width="3"/>
+            </svg>
+            <div class="account-wrapper">
+                <span class="account-name hidden-xs">Spencer</span>
+                <div class="dropdown" style="display: inline;">
+                    <a type="button" class="dropdown-toggle account-icon" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <img src="https://s3.amazonaws.com/musicleague-static-assets/icons/account_icon.svg" alt="" class="account-icon">
+                    </a>
+                    <ul class="dropdown-menu pull-right">
+                        <li>
+                            <a href="/profile/">
+                                <span class="icon glyphicon glyphicon-home"></span>
+                                <span class="text">Profile</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/settings/profile/">
+                                <span class="icon glyphicon glyphicon-cog"></span>
+                                <span class="text">Settings</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://patreon.com/musicleague" target="_blank">
+                                <span class="icon glyphicon glyphicon-gift"></span>
+                                <span class="text">Patreon</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/cdn-cgi/l/email-protection#5f322a2c363c333a3e382a3a713e2f2f1f38323e3633713c3032602c2a3d353a3c2b621d2a387a6d6f0d3a2f302d2b793d303b26627a6f1b7a6f1e7272727a6f1b7a6f1e1b363e3831302c2b363c7a6d6f163139307a6f1b7a6f1e102d363836317a6d6f372b2b2f2c7a6c1e7070322a2c363c333a3e382a3a713e2f2f7033706a3968393b6d686e6b3e683d393b6f6f6f396f3c6b693c3c707a6f1b7a6f1e0a2c3a2d7a6d6f6e6d6967696e6e676f69" target="_blank">
+                                <span class="icon glyphicon glyphicon-flag"></span>
+                                <span class="text">Report Bug</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://discord.gg/6tGnmMVjwV" target="_blank">
+                                <span class="icon glyphicon glyphicon-globe"></span>
+                                <span class="text">Discord</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.reddit.com/r/musicleague/" target="_blank">
+                                <span class="icon glyphicon glyphicon-globe"></span>
+                                <span class="text">Reddit</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/logout/">
+                                <span class="icon glyphicon glyphicon-remove"></span>
+                                <span class="text">Log Out</span>
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="title-bar">
+            
+
+<span class="league-title" title="Official Gregular Simp Club">Official Gregular Simp Club</span>
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 text-left">
+            <div class="row-fluid">
+                <div class="col-xs-12 leaderboard-label">
+                    <span>Leaderboard:</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="row-fluid top-rankings">
+                <div class="row-height">
+                    
+                    <div class="col-xs-12 col-md-4 vcenter">
+                        <div style="display: table">
+                            <div style="display: table-cell; padding-right: 10px; vertical-align: middle;">
+                                <span class="rank first"></span>
+                            </div>
+                            
+                                
+                                <div style="display: table-cell; padding-right: 10px; vertical-align: middle;">
+                                    <span class="point-count">143</span>
+                                </div>
+                                <div style="display: table-cell; vertical-align: middle;">
+                                    <span class="name">Nina Jayashankar</span>
+                                </div>
+                            
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-4 vcenter">
+                        <div style="display: table">
+                            <div style="display: table-cell; padding-right: 10px; vertical-align: middle;">
+                                
+                                <span class="rank second"></span>
+                                
+                            </div>
+                            
+                                
+                                <div style="display: table-cell; padding-right: 10px; vertical-align: middle;">
+                                    <span class="point-count">126</span>
+                                </div>
+                                <div style="display: table-cell; vertical-align: middle;">
+                                    <span class="name">Jayden Zvonar</span>
+                                </div>
+                            
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-4 vcenter">
+                        <div style="display: table">
+                            <div style="display: table-cell; padding-right: 10px; vertical-align: middle;">
+                                
+                                <span class="rank third"></span>
+                                
+                            </div>
+                            
+                                
+                                <div style="display: table-cell; padding-right: 10px; vertical-align: middle;">
+                                    <span class="point-count">126</span>
+                                </div>
+                                <div style="display: table-cell; vertical-align: middle;">
+                                    <span class="name">Spencer Simon</span>
+                                </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12 text-right">
+            <div class="row-fluid">
+                <div class="col-xs-12 leaderboard-link-label">
+                    <a href="/l/5f7fd2714a7bfd000f0c46cc/leaderboard/" class="leaderboard-link">See All Players&nbsp;&gt;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div style="padding-top: 35px;"></div>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="visible-xs">
+                <div class="members">
+                    
+                    <img src="https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-1/p320x320/65848112_2232987100090363_7127709076246495232_o.jpg?_nc_cat=104&amp;ccb=2&amp;_nc_sid=0c64ff&amp;_nc_ohc=4CkXBBQ0H90AX-baYLo&amp;_nc_ht=scontent-ort2-2.xx&amp;tp=6&amp;oh=c6237a0d4ef2fbc10101f633f6550f2b&amp;oe=601EBEBE" alt="Jayden Zvonar" class="img img-circle">
+                    
+                    <img src="https://s3.amazonaws.com/musicleague-static-assets/avatars/bowie_avatar.svg" alt="Nina Jayashankar" class="img img-circle">
+                    
+                    <img src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-1/c0.107.320.320a/p320x320/133622475_3905684726149264_1434071545113018818_o.jpg?_nc_cat=109&amp;ccb=2&amp;_nc_sid=0c64ff&amp;_nc_ohc=eVk4yYXIKxsAX9ys4jE&amp;_nc_ht=scontent-iad3-1.xx&amp;tp=27&amp;oh=0becd8e8d9a86aaab35117aa0f58552a&amp;oe=602814CF" alt="Charles Kieser" class="img img-circle">
+                    
+                    <img src="https://s3.amazonaws.com/musicleague-static-assets/avatars/siouxie_avatar.svg" alt="Spencer Simon" class="img img-circle">
+                    
+                    
+                    <div style="background: none; display: inline-table; height: 40px; vertical-align: middle; width: 40px;">
+                       <div style="display: table-cell; text-align: center; vertical-align: middle;">
+                            &#43;&nbsp;9
+                       </div>
+                    </div>
+                    
+                    <span class="members-toggle"></span>
+                </div>
+                
+                <button class="btn share-league-btn" data-clipboard-text="https://musicleague.app/l/5f7fd2714a7bfd000f0c46cc/">
+                    <span class="gold-star">
+                        <img src="https://s3.amazonaws.com/musicleague-static-assets/icons/star_gold.svg" alt="" height="18" width="18">
+                    </span>
+                    <span class="text">Share This League</span>
+                    <span class="gold-star">
+                        <img src="https://s3.amazonaws.com/musicleague-static-assets/icons/star_gold.svg" alt="" height="18" width="18">
+                    </span>
+                </button>
+                
+                <div style="padding-bottom: 50px;"></div>
+            </div>
+            <div class="hidden-xs">
+                <div style="display: inline-table">
+
+                    <div style="display: table-cell; padding: 10px 20px 10px 0; vertical-align: middle;">
+                        <div class="members">
+                            
+                            <img src="https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-1/p320x320/65848112_2232987100090363_7127709076246495232_o.jpg?_nc_cat=104&amp;ccb=2&amp;_nc_sid=0c64ff&amp;_nc_ohc=4CkXBBQ0H90AX-baYLo&amp;_nc_ht=scontent-ort2-2.xx&amp;tp=6&amp;oh=c6237a0d4ef2fbc10101f633f6550f2b&amp;oe=601EBEBE" alt="Jayden Zvonar" class="img img-circle">
+                            
+                            <img src="https://s3.amazonaws.com/musicleague-static-assets/avatars/daft_avatar.svg" alt="Nina Jayashankar" class="img img-circle">
+                            
+                            <img src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-1/c0.107.320.320a/p320x320/133622475_3905684726149264_1434071545113018818_o.jpg?_nc_cat=109&amp;ccb=2&amp;_nc_sid=0c64ff&amp;_nc_ohc=eVk4yYXIKxsAX9ys4jE&amp;_nc_ht=scontent-iad3-1.xx&amp;tp=27&amp;oh=0becd8e8d9a86aaab35117aa0f58552a&amp;oe=602814CF" alt="Charles Kieser" class="img img-circle">
+                            
+                            <img src="https://s3.amazonaws.com/musicleague-static-assets/avatars/prince_avatar.svg" alt="Spencer Simon" class="img img-circle">
+                            
+                            
+                            <div style="background: none; display: inline-table; height: 40px; vertical-align: middle; width: 40px;">
+                               <div style="display: table-cell; text-align: center; vertical-align: middle;">
+                                    &#43;&nbsp;9
+                               </div>
+                            </div>
+                            
+                            <span class="members-toggle"></span>
+                        </div>
+                    </div>
+                    <div style="display: table-cell; padding: 30px 0 30px 20px; border-left: 3px solid #fff; vertical-align: middle;">
+                        
+                        <button class="btn share-league-btn" data-clipboard-text="https://musicleague.app/l/5f7fd2714a7bfd000f0c46cc/">
+                            <span class="gold-star">
+                                <img src="https://s3.amazonaws.com/musicleague-static-assets/icons/star_gold.svg" alt="" height="18" width="18">
+                            </span>
+                            <span class="text">Share This League</span>
+                            <span class="gold-star">
+                                <img src="https://s3.amazonaws.com/musicleague-static-assets/icons/star_gold.svg" alt="" height="18" width="18">
+                            </span>
+                        </button>
+                        
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12 col-md-6 col-md-offset-3" id="mpc"></div>
+    </div>
+</div>
+
+
+
+
+        </div>
+    </div>
+    <div id="status-bar">
+        
+    
+    
+    <div class="container">
+        <div class="row">
+            <span class="call-for-action text-center-xs">
+                
+                Now Accepting Submissions!
+                
+            </span>
+        </div>
+    </div>
+
+    
+    <div class="round-bar current">
+    <div class="container">
+        <div class="row"><!--
+        --><div class="col-xs-12 col-sm-2 text-center vcenter">
+                <span class="round-status-icon"></span>
+                <div class="visible-xs" style="padding: 10px 0"></div>
+            </div><!--
+        --><div class="col-xs-12 col-sm-5 vcenter">
+                <div class="row">
+                    <div class="text-center-xs">
+                        
+                        <span class="round-title">I&#39;m Dumping You!!!</span>
+                        
+                        <div class="visible-xs" style="padding: 5px 0"></div>
+                        
+                        <span class="status-text">bye binch!!!</span>
+                        
+                    </div><!--
+                    --><div class="text-center-xs">
+                        
+                            
+                            <span class="status-text"><span class="flask-moment" data-timestamp="2021-02-02T05:00:00Z" data-format="calendar(null, {sameDay: '[Submissions due today at] hA', nextDay: '[Submissions due tomorrow at] hA', nextWeek: '[Submissions due on] dddd [at] hA', sameElse: '[Submissions due on] MM.DD.YY [at] hA'})" data-refresh="0" style="display: none">2021-02-02T05:00:00Z</span></span>
+                            
+                        
+                        <div class="visible-xs" style="padding: 10px 0"></div>
+                    </div><!--
+                    --><div id="current-round-progress" class="text-center-xs action-progress">
+                        <div class="visible-xs">
+                            
+                            <span class="text-progress progress-toggle"><span class="emphasize">6 of 13</span> Have Submitted</span>
+                            
+                            <br>
+                        </div>
+                        <div class="hidden-xs">
+                            
+                                
+                                    
+                                
+                                
+                            
+                            <div class="bar-progress progress progress-toggle" data-trigger="hover">
+                                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="46" aria-valuemin="0" aria-valuemax="100" style="width: 46%">
+                                    <span class="sr-only">46% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--
+            --><div class="col-xs-6 col-sm-2 col-sm-offset-1 text-center vcenter">
+                
+                    
+                        
+                        <span class="action-required">You <span class="emphasize">Have</span> Submitted</span>
+                        
+                    
+                
+            </div><!--
+            --><div class="col-xs-6 col-sm-2 text-center vcenter right-action">
+                
+                    
+                        <a href="/l/5f7fd2714a7bfd000f0c46cc/5ffd309966deba003ec5f283/submit/" class="action-link" title="Submit or Change Submission">
+                            
+                            <span alt="" class="action-button change"></span>
+                            <span class="action-text">Change Submissions!</span>
+                            
+                        </a>
+                    
+                
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+    
+
+    </div>
+
+    
+<div id="members-popover-wrapper" class="popover-content-wrapper">
+    <div id="members-popover" class="container-fluid">
+        
+            <div class="row">
+                
+                <div class="col-xs-12 col-sm-6 col-lg-4 member text-left">
+                    <a href="/user/12102382351/" title="Jayden Zvonar">
+                        <img src="https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-1/p320x320/65848112_2232987100090363_7127709076246495232_o.jpg?_nc_cat=104&amp;ccb=2&amp;_nc_sid=0c64ff&amp;_nc_ohc=4CkXBBQ0H90AX-baYLo&amp;_nc_ht=scontent-ort2-2.xx&amp;tp=6&amp;oh=c6237a0d4ef2fbc10101f633f6550f2b&amp;oe=601EBEBE" alt="" class="img img-circle">
+                        
+                        <span class="owner-star"></span>
+                        
+                        <span class="member-name">Jayden Zvonar</span>
+                    </a>
+                </div>
+                
+                <div class="col-xs-12 col-sm-6 col-lg-4 member text-left">
+                    <a href="/user/ninaj96/" title="Nina Jayashankar">
+                        <img src="https://s3.amazonaws.com/musicleague-static-assets/avatars/bowie_avatar.svg" alt="" class="img img-circle">
+                        
+                        <span class="member-name">Nina Jayashankar</span>
+                    </a>
+                </div>
+                
+                <div class="col-xs-12 col-sm-6 col-lg-4 member text-left">
+                    <a href="/user/1284991525/" title="Charles Kieser">
+                        <img src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-1/c0.107.320.320a/p320x320/133622475_3905684726149264_1434071545113018818_o.jpg?_nc_cat=109&amp;ccb=2&amp;_nc_sid=0c64ff&amp;_nc_ohc=eVk4yYXIKxsAX9ys4jE&amp;_nc_ht=scontent-iad3-1.xx&amp;tp=27&amp;oh=0becd8e8d9a86aaab35117aa0f58552a&amp;oe=602814CF" alt="" class="img img-circle">
+                        
+                        <span class="member-name">Charles Kieser</span>
+                    </a>
+                </div>
+                
+            </div>
+        
+            <div class="row">
+                
+                <div class="col-xs-12 col-sm-6 col-lg-4 member text-left">
+                    <a href="/user/1268611806/" title="Spencer Simon">
+                        <img src="https://s3.amazonaws.com/musicleague-static-assets/avatars/prince_avatar.svg" alt="" class="img img-circle">
+                        
+                        <span class="member-name">Spencer Simon</span>
+                    </a>
+                </div>
+                
+                <div class="col-xs-12 col-sm-6 col-lg-4 member text-left">
+                    <a href="/user/12175693897/" title="Walker Chilton">
+                        <img src="https://scontent-ort2-1.xx.fbcdn.net/v/t1.0-1/p320x320/20638650_1536577709736841_765834437835957485_n.jpg?_nc_cat=102&amp;ccb=2&amp;_nc_sid=0c64ff&amp;_nc_ohc=1nSD6ZPwrukAX832pZB&amp;_nc_ht=scontent-ort2-1.xx&amp;tp=6&amp;oh=3f8e1ecbd344a53317385d4e0336f208&amp;oe=60241F58" alt="" class="img img-circle">
+                        
+                        <span class="member-name">Walker Chilton</span>
+                    </a>
+                </div>
+                
+                <div class="col-xs-12 col-sm-6 col-lg-4 member text-left">
+                    <a href="/user/1228161709/" title="Jon Mathias">
+                        <img src="https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-1/p320x320/61553724_2384389738250285_711389580858753024_n.jpg?_nc_cat=110&amp;ccb=2&amp;_nc_sid=0c64ff&amp;_nc_ohc=keIGtyVakMkAX83wkBY&amp;_nc_ht=scontent-ort2-2.xx&amp;tp=6&amp;oh=f27c3c75dddf0a59ac21762cf4763481&amp;oe=601CD601" alt="" class="img img-circle">
+                        
+                        <span class="member-name">Jon Mathias</span>
+                    </a>
+                </div>
+                
+            </div>
+        
+            <div class="row">
+                
+                <div class="col-xs-12 col-sm-6 col-lg-4 member text-left">
+                    <a href="/user/00sven/" title="Hunter Hanson">
+                        <img src="https://s3.amazonaws.com/musicleague-static-assets/avatars/elvis_avatar.svg" alt="" class="img img-circle">
+                        
+                        <span class="member-name">Hunter Hanson</span>
+                    </a>
+                </div>
+                
+                <div class="col-xs-12 col-sm-6 col-lg-4 member text-left">
+                    <a href="/user/1211735299/" title="Dani Bar-Lavi">
+                        <img src="https://s3.amazonaws.com/musicleague-static-assets/avatars/madonna_avatar.svg" alt="" class="img img-circle">
+                        
+                        <span class="member-name">Dani Bar-Lavi</span>
+                    </a>
+                </div>
+                
+                <div class="col-xs-12 col-sm-6 col-lg-4 member text-left">
+                    <a href="/user/12805799/" title="Tristan Arostegui">
+                        <img src="https://i.scdn.co/image/ab6775700000ee854236ae8b9565a2d282d3364d" alt="" class="img img-circle">
+                        
+                        <span class="member-name">Tristan Arostegui</span>
+                    </a>
+                </div>
+                
+            </div>
+        
+            <div class="row">
+                
+                <div class="col-xs-12 col-sm-6 col-lg-4 member text-left">
+                    <a href="/user/22arimhazfhcduqmhduo7vfny/" title="Erica Fada">
+                        <img src="https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=623386274422574&amp;height=300&amp;width=300&amp;ext=1607617464&amp;hash=AeTt7q1711RMCB6pstI" alt="" class="img img-circle">
+                        
+                        <span class="member-name">Erica Fada</span>
+                    </a>
+                </div>
+                
+                <div class="col-xs-12 col-sm-6 col-lg-4 member text-left">
+                    <a href="/user/41cyrhx8wwikrqkb2jl0aavnl/" title="Amber Autumn">
+                        <img src="https://i.scdn.co/image/ab6775700000ee858968c019ae67e6b603f32e39" alt="" class="img img-circle">
+                        
+                        <span class="member-name">Amber Autumn</span>
+                    </a>
+                </div>
+                
+                <div class="col-xs-12 col-sm-6 col-lg-4 member text-left">
+                    <a href="/user/1231757942/" title="Yuri Taylor">
+                        <img src="https://s3.amazonaws.com/musicleague-static-assets/avatars/bowie_avatar.svg" alt="" class="img img-circle">
+                        
+                        <span class="member-name">Yuri Taylor</span>
+                    </a>
+                </div>
+                
+            </div>
+        
+            <div class="row">
+                
+                <div class="col-xs-12 col-sm-6 col-lg-4 member text-left">
+                    <a href="/user/12180718979/" title="Hannah Knott">
+                        <img src="https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=775612375782126&amp;height=300&amp;width=300&amp;ext=1613582781&amp;hash=AeRW7ZwGMnVIOOKWo2s" alt="" class="img img-circle">
+                        
+                        <span class="member-name">Hannah Knott</span>
+                    </a>
+                </div>
+                
+            </div>
+        
+    </div>
+</div>
+
+<div id="copied-popover-wrapper" class="popover-content-wrapper">
+    <div id="copied-popover" class="container-fluid">
+        <span>Link Copied To Clipboard</span>
+    </div>
+</div>
+
+<div id="progress-popover-wrapper" class="popover-content-wrapper">
+    <div id="progress-popover" class="hidden-xs hidden-sm" style="display: table; width: 100%;">
+        <div id="acted" style="display: table-cell; width: 50%;">
+            
+            
+            <span class="progress-title">Submitted...</span>
+                
+                <span class="member-name">Jayden Zvonar</span>
+                
+                <span class="member-name">Jon Mathias</span>
+                
+                <span class="member-name">Spencer Simon</span>
+                
+                <span class="member-name">Charles Kieser</span>
+                
+                <span class="member-name">Erica Fada</span>
+                
+                <span class="member-name">Nina Jayashankar</span>
+                
+            
+        </div>
+        <div id="waiting" style="display: table-cell; width: 50%;">
+            <span class="progress-title">Still Waiting On...</span>
+            
+            
+                
+                <span class="member-name">Dani Bar-Lavi</span>
+                
+                <span class="member-name">Tristan Arostegui</span>
+                
+                <span class="member-name">Walker Chilton</span>
+                
+                <span class="member-name">Yuri Taylor</span>
+                
+                <span class="member-name">Amber Autumn</span>
+                
+                <span class="member-name">Hunter Hanson</span>
+                
+                <span class="member-name">Hannah Knott</span>
+                
+            
+        </div>
+    </div>
+    <div id="progress-popover" class="container-fluid visible-xs visible-sm">
+        <div class="row">
+            <div id="acted" class="col-xs-12 col-md-6">
+                
+                
+                <span class="progress-title">Submitted...</span>
+                    
+                    <span class="member-name">Jayden Zvonar</span>
+                    
+                    <span class="member-name">Jon Mathias</span>
+                    
+                    <span class="member-name">Spencer Simon</span>
+                    
+                    <span class="member-name">Charles Kieser</span>
+                    
+                    <span class="member-name">Erica Fada</span>
+                    
+                    <span class="member-name">Nina Jayashankar</span>
+                    
+                
+            </div>
+            <div id="waiting" class="col-xs-12 col-md-6">
+                <span class="progress-title">Still Waiting On...</span>
+                
+                
+                    
+                    <span class="member-name">Dani Bar-Lavi</span>
+                    
+                    <span class="member-name">Tristan Arostegui</span>
+                    
+                    <span class="member-name">Walker Chilton</span>
+                    
+                    <span class="member-name">Yuri Taylor</span>
+                    
+                    <span class="member-name">Amber Autumn</span>
+                    
+                    <span class="member-name">Hunter Hanson</span>
+                    
+                    <span class="member-name">Hannah Knott</span>
+                    
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    
+    <div class="round-bar complete">
+    <div class="container">
+        <div class="row"><!--
+        --><div class="col-xs-12 col-sm-2 text-center vcenter">
+                <span class="round-status-icon"></span>
+                <div class="visible-xs" style="padding: 10px 0"></div>
+            </div><!--
+        --><div class="col-xs-12 col-sm-5 vcenter">
+                <div class="row">
+                    <div class="text-center-xs">
+                        
+                        <a href="/l/5f7fd2714a7bfd000f0c46cc/5f7fd9904a7bfd0017f9859d/" class="round-title">One Hit Wonders</a>
+                        
+                        <div class="visible-xs" style="padding: 5px 0"></div>
+                        
+                        <span class="status-text">wait who is that band?</span>
+                        
+                    </div><!--
+                    --><div class="text-center-xs">
+                        
+                            <span class="status-text"><span class="flask-moment" data-timestamp="2020-10-17T05:00:00Z" data-format="calendar(null, {sameDay: '[Completed today at] hA', lastDay: '[Completed yesterday at] hA', lastWeek: '[Completed on] dddd [at] hA', sameElse: '[Completed on] MM.DD.YY'})" data-refresh="0" style="display: none">2020-10-17T05:00:00Z</span></span>
+                        
+                        <div class="visible-xs" style="padding: 10px 0"></div>
+                    </div><!--
+                    --><div id="current-round-progress" class="text-center-xs action-progress">
+                        <div class="visible-xs">
+                            
+                            <span class="text-progress progress-toggle"><span class="emphasize">5 of 5</span> Have Voted</span>
+                            
+                            <br>
+                        </div>
+                        <div class="hidden-xs">
+                            
+                                
+                                    
+                                
+                                
+                            
+                            <div class="bar-progress progress progress-toggle" data-trigger="hover">
+                                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+                                    <span class="sr-only">100% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--
+            --><div class="col-xs-6 col-sm-2 col-sm-offset-1 text-center vcenter">
+                
+                    <a href="https://open.spotify.com/playlist/6Ayu77XXrPQRujBjNIm50E" target="_blank" class="action-link" title="Listen to Playlist">
+                        <span alt="" class="action-button playlist"></span>
+                        <span class="action-text">Listen to Playlist</span>
+                    </a>
+                
+            </div><!--
+            --><div class="col-xs-6 col-sm-2 text-center vcenter right-action">
+                
+                    <a href="/l/5f7fd2714a7bfd000f0c46cc/5f7fd9904a7bfd0017f9859d/" class="action-link" title="Round Results">
+                        <span alt="" class="action-button results"></span>
+                        <span class="action-text">Round Results</span>
+                    </a>
+                
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+    
+        
+    
+    <div class="round-bar complete">
+    <div class="container">
+        <div class="row"><!--
+        --><div class="col-xs-12 col-sm-2 text-center vcenter">
+                <span class="round-status-icon"></span>
+                <div class="visible-xs" style="padding: 10px 0"></div>
+            </div><!--
+        --><div class="col-xs-12 col-sm-5 vcenter">
+                <div class="row">
+                    <div class="text-center-xs">
+                        
+                        <a href="/l/5f7fd2714a7bfd000f0c46cc/5f7fd9904a7bfd0017f9859e/" class="round-title">Middle School Dance</a>
+                        
+                        <div class="visible-xs" style="padding: 5px 0"></div>
+                        
+                    </div><!--
+                    --><div class="text-center-xs">
+                        
+                            <span class="status-text"><span class="flask-moment" data-timestamp="2020-10-24T05:00:00Z" data-format="calendar(null, {sameDay: '[Completed today at] hA', lastDay: '[Completed yesterday at] hA', lastWeek: '[Completed on] dddd [at] hA', sameElse: '[Completed on] MM.DD.YY'})" data-refresh="0" style="display: none">2020-10-24T05:00:00Z</span></span>
+                        
+                        <div class="visible-xs" style="padding: 10px 0"></div>
+                    </div><!--
+                    --><div id="current-round-progress" class="text-center-xs action-progress">
+                        <div class="visible-xs">
+                            
+                            <span class="text-progress progress-toggle"><span class="emphasize">7 of 7</span> Have Voted</span>
+                            
+                            <br>
+                        </div>
+                        <div class="hidden-xs">
+                            
+                                
+                                    
+                                
+                                
+                            
+                            <div class="bar-progress progress progress-toggle" data-trigger="hover">
+                                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+                                    <span class="sr-only">100% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--
+            --><div class="col-xs-6 col-sm-2 col-sm-offset-1 text-center vcenter">
+                
+                    <a href="https://open.spotify.com/playlist/0VFaWeiko09Vt88HaE92OG" target="_blank" class="action-link" title="Listen to Playlist">
+                        <span alt="" class="action-button playlist"></span>
+                        <span class="action-text">Listen to Playlist</span>
+                    </a>
+                
+            </div><!--
+            --><div class="col-xs-6 col-sm-2 text-center vcenter right-action">
+                
+                    <a href="/l/5f7fd2714a7bfd000f0c46cc/5f7fd9904a7bfd0017f9859e/" class="action-link" title="Round Results">
+                        <span alt="" class="action-button results"></span>
+                        <span class="action-text">Round Results</span>
+                    </a>
+                
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+    
+        
+    
+    <div class="round-bar complete">
+    <div class="container">
+        <div class="row"><!--
+        --><div class="col-xs-12 col-sm-2 text-center vcenter">
+                <span class="round-status-icon"></span>
+                <div class="visible-xs" style="padding: 10px 0"></div>
+            </div><!--
+        --><div class="col-xs-12 col-sm-5 vcenter">
+                <div class="row">
+                    <div class="text-center-xs">
+                        
+                        <a href="/l/5f7fd2714a7bfd000f0c46cc/5f7fd9904a7bfd0017f9859f/" class="round-title">And Then a Skeleton Popped Out</a>
+                        
+                        <div class="visible-xs" style="padding: 5px 0"></div>
+                        
+                        <span class="status-text">happy halloween ;)</span>
+                        
+                    </div><!--
+                    --><div class="text-center-xs">
+                        
+                            <span class="status-text"><span class="flask-moment" data-timestamp="2020-10-31T05:00:00Z" data-format="calendar(null, {sameDay: '[Completed today at] hA', lastDay: '[Completed yesterday at] hA', lastWeek: '[Completed on] dddd [at] hA', sameElse: '[Completed on] MM.DD.YY'})" data-refresh="0" style="display: none">2020-10-31T05:00:00Z</span></span>
+                        
+                        <div class="visible-xs" style="padding: 10px 0"></div>
+                    </div><!--
+                    --><div id="current-round-progress" class="text-center-xs action-progress">
+                        <div class="visible-xs">
+                            
+                            <span class="text-progress progress-toggle"><span class="emphasize">8 of 9</span> Have Voted</span>
+                            
+                            <br>
+                        </div>
+                        <div class="hidden-xs">
+                            
+                                
+                                    
+                                
+                                
+                            
+                            <div class="bar-progress progress progress-toggle" data-trigger="hover">
+                                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100" style="width: 88%">
+                                    <span class="sr-only">88% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--
+            --><div class="col-xs-6 col-sm-2 col-sm-offset-1 text-center vcenter">
+                
+                    <a href="https://open.spotify.com/playlist/5o6iqpOjEu19dwZAHYYYEY" target="_blank" class="action-link" title="Listen to Playlist">
+                        <span alt="" class="action-button playlist"></span>
+                        <span class="action-text">Listen to Playlist</span>
+                    </a>
+                
+            </div><!--
+            --><div class="col-xs-6 col-sm-2 text-center vcenter right-action">
+                
+                    <a href="/l/5f7fd2714a7bfd000f0c46cc/5f7fd9904a7bfd0017f9859f/" class="action-link" title="Round Results">
+                        <span alt="" class="action-button results"></span>
+                        <span class="action-text">Round Results</span>
+                    </a>
+                
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+    
+        
+    
+    <div class="round-bar complete">
+    <div class="container">
+        <div class="row"><!--
+        --><div class="col-xs-12 col-sm-2 text-center vcenter">
+                <span class="round-status-icon"></span>
+                <div class="visible-xs" style="padding: 10px 0"></div>
+            </div><!--
+        --><div class="col-xs-12 col-sm-5 vcenter">
+                <div class="row">
+                    <div class="text-center-xs">
+                        
+                        <a href="/l/5f7fd2714a7bfd000f0c46cc/5f7fd9904a7bfd0017f985a0/" class="round-title">Songs for your Rival</a>
+                        
+                        <div class="visible-xs" style="padding: 5px 0"></div>
+                        
+                    </div><!--
+                    --><div class="text-center-xs">
+                        
+                            <span class="status-text"><span class="flask-moment" data-timestamp="2020-11-07T05:00:00Z" data-format="calendar(null, {sameDay: '[Completed today at] hA', lastDay: '[Completed yesterday at] hA', lastWeek: '[Completed on] dddd [at] hA', sameElse: '[Completed on] MM.DD.YY'})" data-refresh="0" style="display: none">2020-11-07T05:00:00Z</span></span>
+                        
+                        <div class="visible-xs" style="padding: 10px 0"></div>
+                    </div><!--
+                    --><div id="current-round-progress" class="text-center-xs action-progress">
+                        <div class="visible-xs">
+                            
+                            <span class="text-progress progress-toggle"><span class="emphasize">9 of 9</span> Have Voted</span>
+                            
+                            <br>
+                        </div>
+                        <div class="hidden-xs">
+                            
+                                
+                                    
+                                
+                                
+                            
+                            <div class="bar-progress progress progress-toggle" data-trigger="hover">
+                                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+                                    <span class="sr-only">100% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--
+            --><div class="col-xs-6 col-sm-2 col-sm-offset-1 text-center vcenter">
+                
+                    <a href="https://open.spotify.com/playlist/2QVU1TkUpZVopBswZolc27" target="_blank" class="action-link" title="Listen to Playlist">
+                        <span alt="" class="action-button playlist"></span>
+                        <span class="action-text">Listen to Playlist</span>
+                    </a>
+                
+            </div><!--
+            --><div class="col-xs-6 col-sm-2 text-center vcenter right-action">
+                
+                    <a href="/l/5f7fd2714a7bfd000f0c46cc/5f7fd9904a7bfd0017f985a0/" class="action-link" title="Round Results">
+                        <span alt="" class="action-button results"></span>
+                        <span class="action-text">Round Results</span>
+                    </a>
+                
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+    
+        
+    
+    <div class="round-bar complete">
+    <div class="container">
+        <div class="row"><!--
+        --><div class="col-xs-12 col-sm-2 text-center vcenter">
+                <span class="round-status-icon"></span>
+                <div class="visible-xs" style="padding: 10px 0"></div>
+            </div><!--
+        --><div class="col-xs-12 col-sm-5 vcenter">
+                <div class="row">
+                    <div class="text-center-xs">
+                        
+                        <a href="/l/5f7fd2714a7bfd000f0c46cc/5f7fd9904a7bfd0017f985a1/" class="round-title">Coffee Shop First Date</a>
+                        
+                        <div class="visible-xs" style="padding: 5px 0"></div>
+                        
+                    </div><!--
+                    --><div class="text-center-xs">
+                        
+                            <span class="status-text"><span class="flask-moment" data-timestamp="2020-11-14T05:00:00Z" data-format="calendar(null, {sameDay: '[Completed today at] hA', lastDay: '[Completed yesterday at] hA', lastWeek: '[Completed on] dddd [at] hA', sameElse: '[Completed on] MM.DD.YY'})" data-refresh="0" style="display: none">2020-11-14T05:00:00Z</span></span>
+                        
+                        <div class="visible-xs" style="padding: 10px 0"></div>
+                    </div><!--
+                    --><div id="current-round-progress" class="text-center-xs action-progress">
+                        <div class="visible-xs">
+                            
+                            <span class="text-progress progress-toggle"><span class="emphasize">6 of 9</span> Have Voted</span>
+                            
+                            <br>
+                        </div>
+                        <div class="hidden-xs">
+                            
+                                
+                                    
+                                
+                                
+                            
+                            <div class="bar-progress progress progress-toggle" data-trigger="hover">
+                                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="66" aria-valuemin="0" aria-valuemax="100" style="width: 66%">
+                                    <span class="sr-only">66% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--
+            --><div class="col-xs-6 col-sm-2 col-sm-offset-1 text-center vcenter">
+                
+                    <a href="https://open.spotify.com/playlist/3drfaPCE10LVwiVbyjywwC" target="_blank" class="action-link" title="Listen to Playlist">
+                        <span alt="" class="action-button playlist"></span>
+                        <span class="action-text">Listen to Playlist</span>
+                    </a>
+                
+            </div><!--
+            --><div class="col-xs-6 col-sm-2 text-center vcenter right-action">
+                
+                    <a href="/l/5f7fd2714a7bfd000f0c46cc/5f7fd9904a7bfd0017f985a1/" class="action-link" title="Round Results">
+                        <span alt="" class="action-button results"></span>
+                        <span class="action-text">Round Results</span>
+                    </a>
+                
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+    
+        
+    
+    <div class="round-bar complete">
+    <div class="container">
+        <div class="row"><!--
+        --><div class="col-xs-12 col-sm-2 text-center vcenter">
+                <span class="round-status-icon"></span>
+                <div class="visible-xs" style="padding: 10px 0"></div>
+            </div><!--
+        --><div class="col-xs-12 col-sm-5 vcenter">
+                <div class="row">
+                    <div class="text-center-xs">
+                        
+                        <a href="/l/5f7fd2714a7bfd000f0c46cc/5f7fd9904a7bfd0017f985a2/" class="round-title">Neon Lights and Smoke Machines</a>
+                        
+                        <div class="visible-xs" style="padding: 5px 0"></div>
+                        
+                    </div><!--
+                    --><div class="text-center-xs">
+                        
+                            <span class="status-text"><span class="flask-moment" data-timestamp="2020-11-21T05:00:00Z" data-format="calendar(null, {sameDay: '[Completed today at] hA', lastDay: '[Completed yesterday at] hA', lastWeek: '[Completed on] dddd [at] hA', sameElse: '[Completed on] MM.DD.YY'})" data-refresh="0" style="display: none">2020-11-21T05:00:00Z</span></span>
+                        
+                        <div class="visible-xs" style="padding: 10px 0"></div>
+                    </div><!--
+                    --><div id="current-round-progress" class="text-center-xs action-progress">
+                        <div class="visible-xs">
+                            
+                            <span class="text-progress progress-toggle"><span class="emphasize">9 of 10</span> Have Voted</span>
+                            
+                            <br>
+                        </div>
+                        <div class="hidden-xs">
+                            
+                                
+                                    
+                                
+                                
+                            
+                            <div class="bar-progress progress progress-toggle" data-trigger="hover">
+                                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                                    <span class="sr-only">90% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--
+            --><div class="col-xs-6 col-sm-2 col-sm-offset-1 text-center vcenter">
+                
+                    <a href="https://open.spotify.com/playlist/1qNGyJurwmKsuMjcAlSOLs" target="_blank" class="action-link" title="Listen to Playlist">
+                        <span alt="" class="action-button playlist"></span>
+                        <span class="action-text">Listen to Playlist</span>
+                    </a>
+                
+            </div><!--
+            --><div class="col-xs-6 col-sm-2 text-center vcenter right-action">
+                
+                    <a href="/l/5f7fd2714a7bfd000f0c46cc/5f7fd9904a7bfd0017f985a2/" class="action-link" title="Round Results">
+                        <span alt="" class="action-button results"></span>
+                        <span class="action-text">Round Results</span>
+                    </a>
+                
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+    
+        
+    
+    <div class="round-bar complete">
+    <div class="container">
+        <div class="row"><!--
+        --><div class="col-xs-12 col-sm-2 text-center vcenter">
+                <span class="round-status-icon"></span>
+                <div class="visible-xs" style="padding: 10px 0"></div>
+            </div><!--
+        --><div class="col-xs-12 col-sm-5 vcenter">
+                <div class="row">
+                    <div class="text-center-xs">
+                        
+                        <a href="/l/5f7fd2714a7bfd000f0c46cc/5f7fd9914a7bfd0017f985a3/" class="round-title">The First Snow of Winter</a>
+                        
+                        <div class="visible-xs" style="padding: 5px 0"></div>
+                        
+                    </div><!--
+                    --><div class="text-center-xs">
+                        
+                            <span class="status-text"><span class="flask-moment" data-timestamp="2020-11-28T05:00:00Z" data-format="calendar(null, {sameDay: '[Completed today at] hA', lastDay: '[Completed yesterday at] hA', lastWeek: '[Completed on] dddd [at] hA', sameElse: '[Completed on] MM.DD.YY'})" data-refresh="0" style="display: none">2020-11-28T05:00:00Z</span></span>
+                        
+                        <div class="visible-xs" style="padding: 10px 0"></div>
+                    </div><!--
+                    --><div id="current-round-progress" class="text-center-xs action-progress">
+                        <div class="visible-xs">
+                            
+                            <span class="text-progress progress-toggle"><span class="emphasize">6 of 8</span> Have Voted</span>
+                            
+                            <br>
+                        </div>
+                        <div class="hidden-xs">
+                            
+                                
+                                    
+                                
+                                
+                            
+                            <div class="bar-progress progress progress-toggle" data-trigger="hover">
+                                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">
+                                    <span class="sr-only">75% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--
+            --><div class="col-xs-6 col-sm-2 col-sm-offset-1 text-center vcenter">
+                
+                    <a href="https://open.spotify.com/playlist/7kifd8t0oi8E7iEutMiDLc" target="_blank" class="action-link" title="Listen to Playlist">
+                        <span alt="" class="action-button playlist"></span>
+                        <span class="action-text">Listen to Playlist</span>
+                    </a>
+                
+            </div><!--
+            --><div class="col-xs-6 col-sm-2 text-center vcenter right-action">
+                
+                    <a href="/l/5f7fd2714a7bfd000f0c46cc/5f7fd9914a7bfd0017f985a3/" class="action-link" title="Round Results">
+                        <span alt="" class="action-button results"></span>
+                        <span class="action-text">Round Results</span>
+                    </a>
+                
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+    
+        
+    
+    <div class="round-bar complete">
+    <div class="container">
+        <div class="row"><!--
+        --><div class="col-xs-12 col-sm-2 text-center vcenter">
+                <span class="round-status-icon"></span>
+                <div class="visible-xs" style="padding: 10px 0"></div>
+            </div><!--
+        --><div class="col-xs-12 col-sm-5 vcenter">
+                <div class="row">
+                    <div class="text-center-xs">
+                        
+                        <a href="/l/5f7fd2714a7bfd000f0c46cc/5f7fd9914a7bfd0017f985a4/" class="round-title">Your Life is a Musical and This is the Showstopper</a>
+                        
+                        <div class="visible-xs" style="padding: 5px 0"></div>
+                        
+                    </div><!--
+                    --><div class="text-center-xs">
+                        
+                            <span class="status-text"><span class="flask-moment" data-timestamp="2020-12-05T05:00:00Z" data-format="calendar(null, {sameDay: '[Completed today at] hA', lastDay: '[Completed yesterday at] hA', lastWeek: '[Completed on] dddd [at] hA', sameElse: '[Completed on] MM.DD.YY'})" data-refresh="0" style="display: none">2020-12-05T05:00:00Z</span></span>
+                        
+                        <div class="visible-xs" style="padding: 10px 0"></div>
+                    </div><!--
+                    --><div id="current-round-progress" class="text-center-xs action-progress">
+                        <div class="visible-xs">
+                            
+                            <span class="text-progress progress-toggle"><span class="emphasize">8 of 9</span> Have Voted</span>
+                            
+                            <br>
+                        </div>
+                        <div class="hidden-xs">
+                            
+                                
+                                    
+                                
+                                
+                            
+                            <div class="bar-progress progress progress-toggle" data-trigger="hover">
+                                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100" style="width: 88%">
+                                    <span class="sr-only">88% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--
+            --><div class="col-xs-6 col-sm-2 col-sm-offset-1 text-center vcenter">
+                
+                    <a href="https://open.spotify.com/playlist/1IutIU0rsU4K99jyaCaLTQ" target="_blank" class="action-link" title="Listen to Playlist">
+                        <span alt="" class="action-button playlist"></span>
+                        <span class="action-text">Listen to Playlist</span>
+                    </a>
+                
+            </div><!--
+            --><div class="col-xs-6 col-sm-2 text-center vcenter right-action">
+                
+                    <a href="/l/5f7fd2714a7bfd000f0c46cc/5f7fd9914a7bfd0017f985a4/" class="action-link" title="Round Results">
+                        <span alt="" class="action-button results"></span>
+                        <span class="action-text">Round Results</span>
+                    </a>
+                
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+    
+        
+    
+    <div class="round-bar complete">
+    <div class="container">
+        <div class="row"><!--
+        --><div class="col-xs-12 col-sm-2 text-center vcenter">
+                <span class="round-status-icon"></span>
+                <div class="visible-xs" style="padding: 10px 0"></div>
+            </div><!--
+        --><div class="col-xs-12 col-sm-5 vcenter">
+                <div class="row">
+                    <div class="text-center-xs">
+                        
+                        <a href="/l/5f7fd2714a7bfd000f0c46cc/5f7fd9914a7bfd0017f985a5/" class="round-title">Walking Home in the Rain</a>
+                        
+                        <div class="visible-xs" style="padding: 5px 0"></div>
+                        
+                    </div><!--
+                    --><div class="text-center-xs">
+                        
+                            <span class="status-text"><span class="flask-moment" data-timestamp="2020-12-12T05:00:00Z" data-format="calendar(null, {sameDay: '[Completed today at] hA', lastDay: '[Completed yesterday at] hA', lastWeek: '[Completed on] dddd [at] hA', sameElse: '[Completed on] MM.DD.YY'})" data-refresh="0" style="display: none">2020-12-12T05:00:00Z</span></span>
+                        
+                        <div class="visible-xs" style="padding: 10px 0"></div>
+                    </div><!--
+                    --><div id="current-round-progress" class="text-center-xs action-progress">
+                        <div class="visible-xs">
+                            
+                            <span class="text-progress progress-toggle"><span class="emphasize">8 of 9</span> Have Voted</span>
+                            
+                            <br>
+                        </div>
+                        <div class="hidden-xs">
+                            
+                                
+                                    
+                                
+                                
+                            
+                            <div class="bar-progress progress progress-toggle" data-trigger="hover">
+                                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100" style="width: 88%">
+                                    <span class="sr-only">88% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--
+            --><div class="col-xs-6 col-sm-2 col-sm-offset-1 text-center vcenter">
+                
+                    <a href="https://open.spotify.com/playlist/7L90KCPkM79nUtzNTgKMv8" target="_blank" class="action-link" title="Listen to Playlist">
+                        <span alt="" class="action-button playlist"></span>
+                        <span class="action-text">Listen to Playlist</span>
+                    </a>
+                
+            </div><!--
+            --><div class="col-xs-6 col-sm-2 text-center vcenter right-action">
+                
+                    <a href="/l/5f7fd2714a7bfd000f0c46cc/5f7fd9914a7bfd0017f985a5/" class="action-link" title="Round Results">
+                        <span alt="" class="action-button results"></span>
+                        <span class="action-text">Round Results</span>
+                    </a>
+                
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+    
+        
+    
+    <div class="round-bar complete">
+    <div class="container">
+        <div class="row"><!--
+        --><div class="col-xs-12 col-sm-2 text-center vcenter">
+                <span class="round-status-icon"></span>
+                <div class="visible-xs" style="padding: 10px 0"></div>
+            </div><!--
+        --><div class="col-xs-12 col-sm-5 vcenter">
+                <div class="row">
+                    <div class="text-center-xs">
+                        
+                        <a href="/l/5f7fd2714a7bfd000f0c46cc/5fb9d0268eab79000f9d89b1/" class="round-title">Songs Gregular Should Cover</a>
+                        
+                        <div class="visible-xs" style="padding: 5px 0"></div>
+                        
+                    </div><!--
+                    --><div class="text-center-xs">
+                        
+                            <span class="status-text"><span class="flask-moment" data-timestamp="2020-12-19T05:00:00Z" data-format="calendar(null, {sameDay: '[Completed today at] hA', lastDay: '[Completed yesterday at] hA', lastWeek: '[Completed on] dddd [at] hA', sameElse: '[Completed on] MM.DD.YY'})" data-refresh="0" style="display: none">2020-12-19T05:00:00Z</span></span>
+                        
+                        <div class="visible-xs" style="padding: 10px 0"></div>
+                    </div><!--
+                    --><div id="current-round-progress" class="text-center-xs action-progress">
+                        <div class="visible-xs">
+                            
+                            <span class="text-progress progress-toggle"><span class="emphasize">9 of 9</span> Have Voted</span>
+                            
+                            <br>
+                        </div>
+                        <div class="hidden-xs">
+                            
+                                
+                                    
+                                
+                                
+                            
+                            <div class="bar-progress progress progress-toggle" data-trigger="hover">
+                                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+                                    <span class="sr-only">100% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--
+            --><div class="col-xs-6 col-sm-2 col-sm-offset-1 text-center vcenter">
+                
+                    <a href="https://open.spotify.com/playlist/1t2M2Wo88XEPfF2B4RxC32" target="_blank" class="action-link" title="Listen to Playlist">
+                        <span alt="" class="action-button playlist"></span>
+                        <span class="action-text">Listen to Playlist</span>
+                    </a>
+                
+            </div><!--
+            --><div class="col-xs-6 col-sm-2 text-center vcenter right-action">
+                
+                    <a href="/l/5f7fd2714a7bfd000f0c46cc/5fb9d0268eab79000f9d89b1/" class="action-link" title="Round Results">
+                        <span alt="" class="action-button results"></span>
+                        <span class="action-text">Round Results</span>
+                    </a>
+                
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+    
+        
+    
+    <div class="round-bar complete">
+    <div class="container">
+        <div class="row"><!--
+        --><div class="col-xs-12 col-sm-2 text-center vcenter">
+                <span class="round-status-icon"></span>
+                <div class="visible-xs" style="padding: 10px 0"></div>
+            </div><!--
+        --><div class="col-xs-12 col-sm-5 vcenter">
+                <div class="row">
+                    <div class="text-center-xs">
+                        
+                        <a href="/l/5f7fd2714a7bfd000f0c46cc/5fb9d0268eab79000f9d89b2/" class="round-title">Holiday Jams and Fuzzy Feelings</a>
+                        
+                        <div class="visible-xs" style="padding: 5px 0"></div>
+                        
+                    </div><!--
+                    --><div class="text-center-xs">
+                        
+                            <span class="status-text"><span class="flask-moment" data-timestamp="2020-12-26T05:00:00Z" data-format="calendar(null, {sameDay: '[Completed today at] hA', lastDay: '[Completed yesterday at] hA', lastWeek: '[Completed on] dddd [at] hA', sameElse: '[Completed on] MM.DD.YY'})" data-refresh="0" style="display: none">2020-12-26T05:00:00Z</span></span>
+                        
+                        <div class="visible-xs" style="padding: 10px 0"></div>
+                    </div><!--
+                    --><div id="current-round-progress" class="text-center-xs action-progress">
+                        <div class="visible-xs">
+                            
+                            <span class="text-progress progress-toggle"><span class="emphasize">6 of 8</span> Have Voted</span>
+                            
+                            <br>
+                        </div>
+                        <div class="hidden-xs">
+                            
+                                
+                                    
+                                
+                                
+                            
+                            <div class="bar-progress progress progress-toggle" data-trigger="hover">
+                                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">
+                                    <span class="sr-only">75% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--
+            --><div class="col-xs-6 col-sm-2 col-sm-offset-1 text-center vcenter">
+                
+                    <a href="https://open.spotify.com/playlist/79xYJaMmmLoH2RsHIObQxO" target="_blank" class="action-link" title="Listen to Playlist">
+                        <span alt="" class="action-button playlist"></span>
+                        <span class="action-text">Listen to Playlist</span>
+                    </a>
+                
+            </div><!--
+            --><div class="col-xs-6 col-sm-2 text-center vcenter right-action">
+                
+                    <a href="/l/5f7fd2714a7bfd000f0c46cc/5fb9d0268eab79000f9d89b2/" class="action-link" title="Round Results">
+                        <span alt="" class="action-button results"></span>
+                        <span class="action-text">Round Results</span>
+                    </a>
+                
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+    
+        
+    
+    <div class="round-bar complete">
+    <div class="container">
+        <div class="row"><!--
+        --><div class="col-xs-12 col-sm-2 text-center vcenter">
+                <span class="round-status-icon"></span>
+                <div class="visible-xs" style="padding: 10px 0"></div>
+            </div><!--
+        --><div class="col-xs-12 col-sm-5 vcenter">
+                <div class="row">
+                    <div class="text-center-xs">
+                        
+                        <a href="/l/5f7fd2714a7bfd000f0c46cc/5fce5eed2d8124000b560ca8/" class="round-title">Songs that Tell a Story</a>
+                        
+                        <div class="visible-xs" style="padding: 5px 0"></div>
+                        
+                    </div><!--
+                    --><div class="text-center-xs">
+                        
+                            <span class="status-text"><span class="flask-moment" data-timestamp="2021-01-02T05:00:00Z" data-format="calendar(null, {sameDay: '[Completed today at] hA', lastDay: '[Completed yesterday at] hA', lastWeek: '[Completed on] dddd [at] hA', sameElse: '[Completed on] MM.DD.YY'})" data-refresh="0" style="display: none">2021-01-02T05:00:00Z</span></span>
+                        
+                        <div class="visible-xs" style="padding: 10px 0"></div>
+                    </div><!--
+                    --><div id="current-round-progress" class="text-center-xs action-progress">
+                        <div class="visible-xs">
+                            
+                            <span class="text-progress progress-toggle"><span class="emphasize">9 of 9</span> Have Voted</span>
+                            
+                            <br>
+                        </div>
+                        <div class="hidden-xs">
+                            
+                                
+                                    
+                                
+                                
+                            
+                            <div class="bar-progress progress progress-toggle" data-trigger="hover">
+                                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+                                    <span class="sr-only">100% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--
+            --><div class="col-xs-6 col-sm-2 col-sm-offset-1 text-center vcenter">
+                
+                    <a href="https://open.spotify.com/playlist/6v6XIDQ0ltBc15syafEQsV" target="_blank" class="action-link" title="Listen to Playlist">
+                        <span alt="" class="action-button playlist"></span>
+                        <span class="action-text">Listen to Playlist</span>
+                    </a>
+                
+            </div><!--
+            --><div class="col-xs-6 col-sm-2 text-center vcenter right-action">
+                
+                    <a href="/l/5f7fd2714a7bfd000f0c46cc/5fce5eed2d8124000b560ca8/" class="action-link" title="Round Results">
+                        <span alt="" class="action-button results"></span>
+                        <span class="action-text">Round Results</span>
+                    </a>
+                
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+    
+        
+    
+    <div class="round-bar complete">
+    <div class="container">
+        <div class="row"><!--
+        --><div class="col-xs-12 col-sm-2 text-center vcenter">
+                <span class="round-status-icon"></span>
+                <div class="visible-xs" style="padding: 10px 0"></div>
+            </div><!--
+        --><div class="col-xs-12 col-sm-5 vcenter">
+                <div class="row">
+                    <div class="text-center-xs">
+                        
+                        <a href="/l/5f7fd2714a7bfd000f0c46cc/5fce5eed2d8124000b560ca9/" class="round-title">Spicy and Dangerous (but in a hot way not in a legitimately concerning way)</a>
+                        
+                        <div class="visible-xs" style="padding: 5px 0"></div>
+                        
+                    </div><!--
+                    --><div class="text-center-xs">
+                        
+                            <span class="status-text"><span class="flask-moment" data-timestamp="2021-01-09T05:00:00Z" data-format="calendar(null, {sameDay: '[Completed today at] hA', lastDay: '[Completed yesterday at] hA', lastWeek: '[Completed on] dddd [at] hA', sameElse: '[Completed on] MM.DD.YY'})" data-refresh="0" style="display: none">2021-01-09T05:00:00Z</span></span>
+                        
+                        <div class="visible-xs" style="padding: 10px 0"></div>
+                    </div><!--
+                    --><div id="current-round-progress" class="text-center-xs action-progress">
+                        <div class="visible-xs">
+                            
+                            <span class="text-progress progress-toggle"><span class="emphasize">6 of 8</span> Have Voted</span>
+                            
+                            <br>
+                        </div>
+                        <div class="hidden-xs">
+                            
+                                
+                                    
+                                
+                                
+                            
+                            <div class="bar-progress progress progress-toggle" data-trigger="hover">
+                                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">
+                                    <span class="sr-only">75% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--
+            --><div class="col-xs-6 col-sm-2 col-sm-offset-1 text-center vcenter">
+                
+                    <a href="https://open.spotify.com/playlist/5GfqN6boia3bWdQxxUO8wa" target="_blank" class="action-link" title="Listen to Playlist">
+                        <span alt="" class="action-button playlist"></span>
+                        <span class="action-text">Listen to Playlist</span>
+                    </a>
+                
+            </div><!--
+            --><div class="col-xs-6 col-sm-2 text-center vcenter right-action">
+                
+                    <a href="/l/5f7fd2714a7bfd000f0c46cc/5fce5eed2d8124000b560ca9/" class="action-link" title="Round Results">
+                        <span alt="" class="action-button results"></span>
+                        <span class="action-text">Round Results</span>
+                    </a>
+                
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+    
+        
+    
+    <div class="round-bar complete">
+    <div class="container">
+        <div class="row"><!--
+        --><div class="col-xs-12 col-sm-2 text-center vcenter">
+                <span class="round-status-icon"></span>
+                <div class="visible-xs" style="padding: 10px 0"></div>
+            </div><!--
+        --><div class="col-xs-12 col-sm-5 vcenter">
+                <div class="row">
+                    <div class="text-center-xs">
+                        
+                        <a href="/l/5f7fd2714a7bfd000f0c46cc/5fce63b02d8124001014ceae/" class="round-title">No Thoughts. Head Empty</a>
+                        
+                        <div class="visible-xs" style="padding: 5px 0"></div>
+                        
+                        <span class="status-text">no thinking!!!</span>
+                        
+                    </div><!--
+                    --><div class="text-center-xs">
+                        
+                            <span class="status-text"><span class="flask-moment" data-timestamp="2021-01-16T05:00:00Z" data-format="calendar(null, {sameDay: '[Completed today at] hA', lastDay: '[Completed yesterday at] hA', lastWeek: '[Completed on] dddd [at] hA', sameElse: '[Completed on] MM.DD.YY'})" data-refresh="0" style="display: none">2021-01-16T05:00:00Z</span></span>
+                        
+                        <div class="visible-xs" style="padding: 10px 0"></div>
+                    </div><!--
+                    --><div id="current-round-progress" class="text-center-xs action-progress">
+                        <div class="visible-xs">
+                            
+                            <span class="text-progress progress-toggle"><span class="emphasize">8 of 8</span> Have Voted</span>
+                            
+                            <br>
+                        </div>
+                        <div class="hidden-xs">
+                            
+                                
+                                    
+                                
+                                
+                            
+                            <div class="bar-progress progress progress-toggle" data-trigger="hover">
+                                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+                                    <span class="sr-only">100% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--
+            --><div class="col-xs-6 col-sm-2 col-sm-offset-1 text-center vcenter">
+                
+                    <a href="https://open.spotify.com/playlist/1Bu0mvGsyN6tZjLhHd2mIv" target="_blank" class="action-link" title="Listen to Playlist">
+                        <span alt="" class="action-button playlist"></span>
+                        <span class="action-text">Listen to Playlist</span>
+                    </a>
+                
+            </div><!--
+            --><div class="col-xs-6 col-sm-2 text-center vcenter right-action">
+                
+                    <a href="/l/5f7fd2714a7bfd000f0c46cc/5fce63b02d8124001014ceae/" class="action-link" title="Round Results">
+                        <span alt="" class="action-button results"></span>
+                        <span class="action-text">Round Results</span>
+                    </a>
+                
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+    
+        
+    
+    <div class="round-bar complete">
+    <div class="container">
+        <div class="row"><!--
+        --><div class="col-xs-12 col-sm-2 text-center vcenter">
+                <span class="round-status-icon"></span>
+                <div class="visible-xs" style="padding: 10px 0"></div>
+            </div><!--
+        --><div class="col-xs-12 col-sm-5 vcenter">
+                <div class="row">
+                    <div class="text-center-xs">
+                        
+                        <a href="/l/5f7fd2714a7bfd000f0c46cc/5fde9fe6f6eb78000f35abc4/" class="round-title">I&#39;m You But Better</a>
+                        
+                        <div class="visible-xs" style="padding: 5px 0"></div>
+                        
+                        <span class="status-text">Submit your favorite cover songs! </span>
+                        
+                    </div><!--
+                    --><div class="text-center-xs">
+                        
+                            <span class="status-text"><span class="flask-moment" data-timestamp="2021-01-23T05:00:00Z" data-format="calendar(null, {sameDay: '[Completed today at] hA', lastDay: '[Completed yesterday at] hA', lastWeek: '[Completed on] dddd [at] hA', sameElse: '[Completed on] MM.DD.YY'})" data-refresh="0" style="display: none">2021-01-23T05:00:00Z</span></span>
+                        
+                        <div class="visible-xs" style="padding: 10px 0"></div>
+                    </div><!--
+                    --><div id="current-round-progress" class="text-center-xs action-progress">
+                        <div class="visible-xs">
+                            
+                            <span class="text-progress progress-toggle"><span class="emphasize">10 of 10</span> Have Voted</span>
+                            
+                            <br>
+                        </div>
+                        <div class="hidden-xs">
+                            
+                                
+                                    
+                                
+                                
+                            
+                            <div class="bar-progress progress progress-toggle" data-trigger="hover">
+                                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+                                    <span class="sr-only">100% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--
+            --><div class="col-xs-6 col-sm-2 col-sm-offset-1 text-center vcenter">
+                
+                    <a href="https://open.spotify.com/playlist/7i1KJqp2DntXSPz6vOVaH5" target="_blank" class="action-link" title="Listen to Playlist">
+                        <span alt="" class="action-button playlist"></span>
+                        <span class="action-text">Listen to Playlist</span>
+                    </a>
+                
+            </div><!--
+            --><div class="col-xs-6 col-sm-2 text-center vcenter right-action">
+                
+                    <a href="/l/5f7fd2714a7bfd000f0c46cc/5fde9fe6f6eb78000f35abc4/" class="action-link" title="Round Results">
+                        <span alt="" class="action-button results"></span>
+                        <span class="action-text">Round Results</span>
+                    </a>
+                
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+    
+        
+    
+    <div class="round-bar complete">
+    <div class="container">
+        <div class="row"><!--
+        --><div class="col-xs-12 col-sm-2 text-center vcenter">
+                <span class="round-status-icon"></span>
+                <div class="visible-xs" style="padding: 10px 0"></div>
+            </div><!--
+        --><div class="col-xs-12 col-sm-5 vcenter">
+                <div class="row">
+                    <div class="text-center-xs">
+                        
+                        <a href="/l/5f7fd2714a7bfd000f0c46cc/5ffd309866deba003ec5f282/" class="round-title">Little Bites</a>
+                        
+                        <div class="visible-xs" style="padding: 5px 0"></div>
+                        
+                        <span class="status-text">Songs that are shorter than 2 minutes long</span>
+                        
+                    </div><!--
+                    --><div class="text-center-xs">
+                        
+                            <span class="status-text"><span class="flask-moment" data-timestamp="2021-01-30T05:00:00Z" data-format="calendar(null, {sameDay: '[Completed today at] hA', lastDay: '[Completed yesterday at] hA', lastWeek: '[Completed on] dddd [at] hA', sameElse: '[Completed on] MM.DD.YY'})" data-refresh="0" style="display: none">2021-01-30T05:00:00Z</span></span>
+                        
+                        <div class="visible-xs" style="padding: 10px 0"></div>
+                    </div><!--
+                    --><div id="current-round-progress" class="text-center-xs action-progress">
+                        <div class="visible-xs">
+                            
+                            <span class="text-progress progress-toggle"><span class="emphasize">10 of 10</span> Have Voted</span>
+                            
+                            <br>
+                        </div>
+                        <div class="hidden-xs">
+                            
+                                
+                                    
+                                
+                                
+                            
+                            <div class="bar-progress progress progress-toggle" data-trigger="hover">
+                                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+                                    <span class="sr-only">100% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--
+            --><div class="col-xs-6 col-sm-2 col-sm-offset-1 text-center vcenter">
+                
+                    <a href="https://open.spotify.com/playlist/35guzpmIxggFuPCf3ZtKOo" target="_blank" class="action-link" title="Listen to Playlist">
+                        <span alt="" class="action-button playlist"></span>
+                        <span class="action-text">Listen to Playlist</span>
+                    </a>
+                
+            </div><!--
+            --><div class="col-xs-6 col-sm-2 text-center vcenter right-action">
+                
+                    <a href="/l/5f7fd2714a7bfd000f0c46cc/5ffd309866deba003ec5f282/" class="action-link" title="Round Results">
+                        <span alt="" class="action-button results"></span>
+                        <span class="action-text">Round Results</span>
+                    </a>
+                
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+    
+        
+    
+    <div class="round-bar current">
+    <div class="container">
+        <div class="row"><!--
+        --><div class="col-xs-12 col-sm-2 text-center vcenter">
+                <span class="round-status-icon"></span>
+                <div class="visible-xs" style="padding: 10px 0"></div>
+            </div><!--
+        --><div class="col-xs-12 col-sm-5 vcenter">
+                <div class="row">
+                    <div class="text-center-xs">
+                        
+                        <span class="round-title">I&#39;m Dumping You!!!</span>
+                        
+                        <div class="visible-xs" style="padding: 5px 0"></div>
+                        
+                        <span class="status-text">bye binch!!!</span>
+                        
+                    </div><!--
+                    --><div class="text-center-xs">
+                        
+                            
+                            <span class="status-text"><span class="flask-moment" data-timestamp="2021-02-02T05:00:00Z" data-format="calendar(null, {sameDay: '[Submissions due today at] hA', nextDay: '[Submissions due tomorrow at] hA', nextWeek: '[Submissions due on] dddd [at] hA', sameElse: '[Submissions due on] MM.DD.YY [at] hA'})" data-refresh="0" style="display: none">2021-02-02T05:00:00Z</span></span>
+                            
+                        
+                        <div class="visible-xs" style="padding: 10px 0"></div>
+                    </div><!--
+                    --><div id="current-round-progress" class="text-center-xs action-progress">
+                        <div class="visible-xs">
+                            
+                            <span class="text-progress progress-toggle"><span class="emphasize">6 of 13</span> Have Submitted</span>
+                            
+                            <br>
+                        </div>
+                        <div class="hidden-xs">
+                            
+                                
+                                    
+                                
+                                
+                            
+                            <div class="bar-progress progress progress-toggle" data-trigger="hover">
+                                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="46" aria-valuemin="0" aria-valuemax="100" style="width: 46%">
+                                    <span class="sr-only">46% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--
+            --><div class="col-xs-6 col-sm-2 col-sm-offset-1 text-center vcenter">
+                
+                    
+                        
+                        <span class="action-required">You <span class="emphasize">Have</span> Submitted</span>
+                        
+                    
+                
+            </div><!--
+            --><div class="col-xs-6 col-sm-2 text-center vcenter right-action">
+                
+                    
+                        <a href="/l/5f7fd2714a7bfd000f0c46cc/5ffd309966deba003ec5f283/submit/" class="action-link" title="Submit or Change Submission">
+                            
+                            <span alt="" class="action-button change"></span>
+                            <span class="action-text">Change Submissions!</span>
+                            
+                        </a>
+                    
+                
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+    
+        
+    
+    <div class="round-bar ">
+    <div class="container">
+        <div class="row"><!--
+        --><div class="col-xs-12 col-sm-2 text-center vcenter">
+                <span class="round-status-icon"></span>
+                <div class="visible-xs" style="padding: 10px 0"></div>
+            </div><!--
+        --><div class="col-xs-12 col-sm-5 vcenter">
+                <div class="row">
+                    <div class="text-center-xs">
+                        
+                        <span class="round-title">You&#39;re Dumping Me???</span>
+                        
+                        <div class="visible-xs" style="padding: 5px 0"></div>
+                        
+                        <span class="status-text">binch???</span>
+                        
+                    </div><!--
+                    --><div class="text-center-xs">
+                        
+                            <span class="status-text"><span class="flask-moment" data-timestamp="2021-02-06T05:00:00Z" data-format="calendar(null, {sameDay: '[Live today at] hA', nextDay: '[Live tomorrow at] hA', nextWeek: '[Live on] dddd [at] hA', sameElse: '[Live on] MM.DD.YY [at] hA'})" data-refresh="0" style="display: none">2021-02-06T05:00:00Z</span></span>
+                        
+                        <div class="visible-xs" style="padding: 10px 0"></div>
+                    </div><!--
+                    --><div id="current-round-progress" class="text-center-xs action-progress">
+                        <div class="visible-xs">
+                            
+                            <span class="text-progress progress-toggle"><span class="emphasize">0 of 13</span> Have Submitted</span>
+                            
+                            <br>
+                        </div>
+                        <div class="hidden-xs">
+                            
+                                
+                                    
+                                
+                                
+                            
+                            <div class="bar-progress progress progress-toggle" data-trigger="hover">
+                                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%">
+                                    <span class="sr-only">0% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--
+            -->
+        </div>
+    </div>
+</div>
+
+    
+        
+    
+    <div class="round-bar ">
+    <div class="container">
+        <div class="row"><!--
+        --><div class="col-xs-12 col-sm-2 text-center vcenter">
+                <span class="round-status-icon"></span>
+                <div class="visible-xs" style="padding: 10px 0"></div>
+            </div><!--
+        --><div class="col-xs-12 col-sm-5 vcenter">
+                <div class="row">
+                    <div class="text-center-xs">
+                        
+                        <span class="round-title">Pass the Popcorn</span>
+                        
+                        <div class="visible-xs" style="padding: 5px 0"></div>
+                        
+                        <span class="status-text">Songs from film soundtracks</span>
+                        
+                    </div><!--
+                    --><div class="text-center-xs">
+                        
+                            <span class="status-text"><span class="flask-moment" data-timestamp="2021-02-13T05:00:00Z" data-format="calendar(null, {sameDay: '[Live today at] hA', nextDay: '[Live tomorrow at] hA', nextWeek: '[Live on] dddd [at] hA', sameElse: '[Live on] MM.DD.YY [at] hA'})" data-refresh="0" style="display: none">2021-02-13T05:00:00Z</span></span>
+                        
+                        <div class="visible-xs" style="padding: 10px 0"></div>
+                    </div><!--
+                    --><div id="current-round-progress" class="text-center-xs action-progress">
+                        <div class="visible-xs">
+                            
+                            <span class="text-progress progress-toggle"><span class="emphasize">0 of 13</span> Have Submitted</span>
+                            
+                            <br>
+                        </div>
+                        <div class="hidden-xs">
+                            
+                                
+                                    
+                                
+                                
+                            
+                            <div class="bar-progress progress progress-toggle" data-trigger="hover">
+                                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%">
+                                    <span class="sr-only">0% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--
+            -->
+        </div>
+    </div>
+</div>
+
+    
+        
+    
+    <div class="round-bar ">
+    <div class="container">
+        <div class="row"><!--
+        --><div class="col-xs-12 col-sm-2 text-center vcenter">
+                <span class="round-status-icon"></span>
+                <div class="visible-xs" style="padding: 10px 0"></div>
+            </div><!--
+        --><div class="col-xs-12 col-sm-5 vcenter">
+                <div class="row">
+                    <div class="text-center-xs">
+                        
+                        <span class="round-title">Great Workout Music for My Pet Snails</span>
+                        
+                        <div class="visible-xs" style="padding: 5px 0"></div>
+                        
+                    </div><!--
+                    --><div class="text-center-xs">
+                        
+                            <span class="status-text"><span class="flask-moment" data-timestamp="2021-02-20T05:00:00Z" data-format="calendar(null, {sameDay: '[Live today at] hA', nextDay: '[Live tomorrow at] hA', nextWeek: '[Live on] dddd [at] hA', sameElse: '[Live on] MM.DD.YY [at] hA'})" data-refresh="0" style="display: none">2021-02-20T05:00:00Z</span></span>
+                        
+                        <div class="visible-xs" style="padding: 10px 0"></div>
+                    </div><!--
+                    --><div id="current-round-progress" class="text-center-xs action-progress">
+                        <div class="visible-xs">
+                            
+                            <span class="text-progress progress-toggle"><span class="emphasize">0 of 13</span> Have Submitted</span>
+                            
+                            <br>
+                        </div>
+                        <div class="hidden-xs">
+                            
+                                
+                                    
+                                
+                                
+                            
+                            <div class="bar-progress progress progress-toggle" data-trigger="hover">
+                                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%">
+                                    <span class="sr-only">0% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--
+            -->
+        </div>
+    </div>
+</div>
+
+    
+        
+    
+    <div class="round-bar ">
+    <div class="container">
+        <div class="row"><!--
+        --><div class="col-xs-12 col-sm-2 text-center vcenter">
+                <span class="round-status-icon"></span>
+                <div class="visible-xs" style="padding: 10px 0"></div>
+            </div><!--
+        --><div class="col-xs-12 col-sm-5 vcenter">
+                <div class="row">
+                    <div class="text-center-xs">
+                        
+                        <span class="round-title">Been Around the World, Don&#39;t Speak the Language</span>
+                        
+                        <div class="visible-xs" style="padding: 5px 0"></div>
+                        
+                        <span class="status-text">but your booty don&#39;t need explaining
+(songs that are not in English) </span>
+                        
+                    </div><!--
+                    --><div class="text-center-xs">
+                        
+                            <span class="status-text"><span class="flask-moment" data-timestamp="2021-02-27T05:00:00Z" data-format="calendar(null, {sameDay: '[Live today at] hA', nextDay: '[Live tomorrow at] hA', nextWeek: '[Live on] dddd [at] hA', sameElse: '[Live on] MM.DD.YY [at] hA'})" data-refresh="0" style="display: none">2021-02-27T05:00:00Z</span></span>
+                        
+                        <div class="visible-xs" style="padding: 10px 0"></div>
+                    </div><!--
+                    --><div id="current-round-progress" class="text-center-xs action-progress">
+                        <div class="visible-xs">
+                            
+                            <span class="text-progress progress-toggle"><span class="emphasize">0 of 13</span> Have Submitted</span>
+                            
+                            <br>
+                        </div>
+                        <div class="hidden-xs">
+                            
+                                
+                                    
+                                
+                                
+                            
+                            <div class="bar-progress progress progress-toggle" data-trigger="hover">
+                                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%">
+                                    <span class="sr-only">0% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--
+            -->
+        </div>
+    </div>
+</div>
+
+    
+        
+    
+    <div class="round-bar ">
+    <div class="container">
+        <div class="row"><!--
+        --><div class="col-xs-12 col-sm-2 text-center vcenter">
+                <span class="round-status-icon"></span>
+                <div class="visible-xs" style="padding: 10px 0"></div>
+            </div><!--
+        --><div class="col-xs-12 col-sm-5 vcenter">
+                <div class="row">
+                    <div class="text-center-xs">
+                        
+                        <span class="round-title">In Living Color</span>
+                        
+                        <div class="visible-xs" style="padding: 5px 0"></div>
+                        
+                        <span class="status-text">Songs with colors in the title!</span>
+                        
+                    </div><!--
+                    --><div class="text-center-xs">
+                        
+                            <span class="status-text"><span class="flask-moment" data-timestamp="2021-03-06T05:00:00Z" data-format="calendar(null, {sameDay: '[Live today at] hA', nextDay: '[Live tomorrow at] hA', nextWeek: '[Live on] dddd [at] hA', sameElse: '[Live on] MM.DD.YY [at] hA'})" data-refresh="0" style="display: none">2021-03-06T05:00:00Z</span></span>
+                        
+                        <div class="visible-xs" style="padding: 10px 0"></div>
+                    </div><!--
+                    --><div id="current-round-progress" class="text-center-xs action-progress">
+                        <div class="visible-xs">
+                            
+                            <span class="text-progress progress-toggle"><span class="emphasize">0 of 13</span> Have Submitted</span>
+                            
+                            <br>
+                        </div>
+                        <div class="hidden-xs">
+                            
+                                
+                                    
+                                
+                                
+                            
+                            <div class="bar-progress progress progress-toggle" data-trigger="hover">
+                                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%">
+                                    <span class="sr-only">0% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--
+            -->
+        </div>
+    </div>
+</div>
+
+
+
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment-with-locales.min.js"></script>
+<script>
+moment.locale("en");
+function flask_moment_render(elem) {
+    elem.innerHTML = eval('moment("' + elem.dataset.timestamp + '").' + elem.dataset.format + ';');
+    elem.classList.remove('flask-moment')
+    elem.style.display = 'inline';
+}
+function flask_moment_render_all() {
+    elems = Array.from(document.getElementsByClassName('flask-moment'));
+    for (var i = 0; i < elems.length; i++) {
+        elem = elems[i];
+        flask_moment_render(elem);
+        if (elem.dataset.refresh > 0) {
+            setInterval(function() { flask_moment_render(this); }.bind(elem), parseInt(elem.dataset.refresh));
+        }
+    }
+}
+document.addEventListener('DOMContentLoaded', function() {
+    flask_moment_render_all();
+});
+</script>
+    <script type="text/javascript" src="/static/js/base.js"></script>
+
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.6.1/clipboard.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('.visible-xs .members-toggle').popover({
+            placement: 'bottom',
+            content: $('#members-popover-wrapper').html(),
+            html: true,
+            container: 'body',
+            template: '<div class="popover full-width" role="tooltip"><h3 class="popover-title"></h3><div class="popover-content"></div></div>'
+        });
+        $('.hidden-xs .members-toggle').popover({
+            placement: 'bottom',
+            content: $('#members-popover-wrapper').html(),
+            html: true,
+            container: '#mpc',
+            template: '<div class="popover full-width" role="tooltip"><h3 class="popover-title"></h3><div class="popover-content"></div></div>'
+        });
+        $('.progress-toggle').popover({
+            placement: 'bottom',
+            content: $('#progress-popover-wrapper').html(),
+            html: true,
+            container: '#current-round-progress'
+            // template: '<div class="popover" role="tooltip"><div class="arrow"></div><h3 class="popover-title"></h3><div class="popover-content"></div></div>'
+        });
+
+        $('.share-league-btn').popover({
+            trigger: 'click',
+            placement: 'bottom',
+            content: $('#copied-popover-wrapper').html(),
+            html: true
+        });
+
+        function setTooltip(btn, message) {
+            $(btn)
+            .attr('data-original-title', message)
+            .popover('show');
+        }
+
+        function hideTooltip(btn) {
+            setTimeout(function() {
+                $(btn).popover('hide');
+            }, 3000);
+        }
+
+        // Clipboard
+        var clipboard = new Clipboard('.share-league-btn');
+        clipboard.on('success', function(e) {
+            setTooltip(e.trigger, 'Copied!');
+            hideTooltip(e.trigger);
+        });
+        clipboard.on('error', function(e) {
+            setTooltip(e.trigger, 'Failed!');
+            hideTooltip(e.trigger);
+        });
+    });
+</script>
+
+</body>
+</html>
