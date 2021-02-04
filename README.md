@@ -26,7 +26,8 @@ In addition, a major assumption of this project is that participants' Music Leag
 
 
 ## Data
-
+ER Diagram of the database:
+![ER Diagram of the database](https://github.com/SSimon16/music-league-analysis/blob/main/ER-diagram.png)
 
 ## Questions and Feedback
 Please contact Spencer Simon at spencersimon16@gmail.com with questions or feedback.
