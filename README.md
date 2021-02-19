@@ -38,7 +38,7 @@ In addition, a major assumption of this project is that participants' Music Leag
 * [Images](https://github.com/SSimon16/music-league-analysis/tree/main/Images): Folder containing all images used for presentation
 * [Web-Scraping_Music-League](https://github.com/SSimon16/music-league-analysis/tree/main/Web-Scraping_Music-League): Folder containing all files used for web scraping of the [Music League](https://musicleague.app) website
   * _music-league-webscrape.py_: Python file used to scrape data and export to clean csv files
-* 
+
 
 #### Data Structure
 ER Diagram of the database:
