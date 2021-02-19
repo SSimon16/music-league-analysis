@@ -1,6 +1,6 @@
-result_id,place,total_points_earned,submitter_id,song_id
-4,1,11,11,2
-2,2,05,8,0
-1,3,04,7,3
-0,4,03,1,4
-3,5,02,9,1
+result_id,place,total_points_earned,submitter_id,round_id,song_id
+4,1,11,11,9,2
+2,2,05,8,9,0
+1,3,04,7,9,3
+0,4,03,1,9,4
+3,5,02,9,9,1
