@@ -44,7 +44,7 @@ In addition, a major assumption of this project is that participants' Music Leag
 ER Diagram of the database:
 ![ER Diagram of the database](https://github.com/SSimon16/music-league-analysis/blob/main/Images/ER-diagram.png)
 
-Note: players.csv is not uploaded publicly to keep players' identities private
+Note: players.csv is not uploaded publicly to keep players' identities private.
 
 ## Questions and Feedback
 Please contact Spencer Simon at spencersimon16@gmail.com with questions or feedback.
