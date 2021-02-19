@@ -213,7 +213,7 @@ vote_points_list = [vote['points_given'] for i in song_vote_breakdown
                                            for vote in i]
 voted_for_list = [vote['voted_for'] for i in song_vote_breakdown
                                       for vote in i]
-                                      
+
 id_voted_for_list = [find_id(i, 'player') for i in voted_for_list]
 
 id_voted_in_round_list = [vote['round_id'] for i in song_vote_breakdown
@@ -244,11 +244,7 @@ df_votes.to_csv('Data/votes.csv', index=False, encoding='utf-8')
 
 ##################################################
 ### Next Steps:
-# - Make round table, and add round_id to results table, so I can then
-# add result_id to votes table
-# - Extend Round-level data to loop through all rounds & add round id's and df
+# - Extend Round-level data to loop through all rounds
 # - When upload data files: ensure player names are NOT on github so not public
-# - Reformat all raw data into normalized dataframes for database
 # - Look up and include artist info (check Spotify?)
-# - Reformat round_dates to be YYYY-MM-DD
-# -This file just for downloading data; Jupyter Notebook for EDA? Use resources
+# -This file just for scraping data; Jupyter Notebook for EDA? Use resources
