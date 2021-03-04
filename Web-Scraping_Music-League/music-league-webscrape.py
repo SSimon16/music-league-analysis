@@ -50,6 +50,8 @@ def find_id(value: str, type: str, ext_value = None):
 ###############################################################################
 ######## Retrieve html documents ##############################################
 ### Overall Round html file & Overall Player html file
+# Note: MusicLeagueRounds html file, MusicLeaguePlayers html file, and all
+# Individual Round html files should be current and downloaded in folder
 
 # Overall Round data (last download: 3/4/2021)
 from pathlib import Path
