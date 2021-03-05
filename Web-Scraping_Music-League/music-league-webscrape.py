@@ -32,8 +32,6 @@ def find_id(value: str, type: str, ext_value = None):
     For finding results_id, 1st argument (value) is the round_id, and
     2nd argument (ext_value) is the submitter_id.
     """
-    # Since protocols are read in order of rank,
-    # skaterNumber 1 = event_rank 1, etc.
     if type == "song":
         match = df_song.query('title == @value').iloc[0][0]
     elif type == "artist":
@@ -43,7 +41,7 @@ def find_id(value: str, type: str, ext_value = None):
     elif type == "round":
         match = df_rounds.query('name == @value').iloc[0][0]
     elif type == "result":
-        match = df_results.query('round_id == @value' and
+        match = df_results.query('round_id == @value & '
                                  'submitter_id == @ext_value').iloc[0][0]
     return match
 
@@ -224,6 +222,7 @@ id_voted_for_list = [find_id(i, 'player') for i in voted_for_list]
 
 id_voted_in_round_list = [vote['round_id'] for i in song_vote_breakdown
                                              for vote in i]
+
 # Make data frame
 df_votes = pd.DataFrame({'vote_id':[None]*len(voter_name_list),
                          # Return list of values from dictionary to get points
