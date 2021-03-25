@@ -57,13 +57,13 @@ def find_id(value: str, type: str, ext_value=None):
 b_path = '/Users/spencersimon/Documents/Projects/Coding/music-league-analysis'
 
 html_doc = Path('/Users/spencersimon/Documents/Projects/Coding/'
-                'music-league-analysis/MusicLeagueRounds.html').read_text()
+                'music-league-analysis/HTML/MusicLeagueRounds.html').read_text()
 
 soup = BeautifulSoup(html_doc, 'html5lib')  # Parse the html file
 
 # Overall Player data (last download: 3/23/2021)
 html_doc_p = Path('/Users/spencersimon/Documents/Projects/Coding/'
-                  'music-league-analysis/MusicLeaguePlayers.html').read_text()
+                  'music-league-analysis/HTML/MusicLeaguePlayers.html').read_text()
 
 soup_p = BeautifulSoup(html_doc_p, 'html5lib')  # Parse the html file
 
@@ -108,7 +108,7 @@ for a in soup_p.findAll('div', attrs={'class': "row-fluid ranking-entry"}):
 
 # list of all html file paths
 html_round_docs = [Path(r'/Users/spencersimon/Documents/Projects/Coding/'
-                        'music-league-analysis/MusicLeagueRound'
+                        'music-league-analysis/HTML/MusicLeagueRound'
                         + str(i + 1)
                         + '.html').read_text()
                    for i in range(len(df_rounds))]
